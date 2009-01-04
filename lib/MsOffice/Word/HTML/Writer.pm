@@ -9,7 +9,7 @@ use Carp;
 use Params::Validate qw/validate SCALAR HASHREF/;
 
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 
 sub new {

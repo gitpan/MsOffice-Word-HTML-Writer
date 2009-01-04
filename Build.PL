@@ -11,6 +11,8 @@ my $builder = Module::Build->new(
         'Test::More'        => 0,
 	'Carp'              => 0,
         'MIME::QuotedPrint' => 0,
+        'MIME::Base64'      => 0,
+        'MIME::Types'       => 0,
 	'Module::Build'     => 0,
         'Params::Validate'  => 0,
     },
