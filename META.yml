@@ -1,6 +1,6 @@
 ---
 name: MsOffice-Word-HTML-Writer
-version: 0.03
+version: 0.04
 author:
   - 'Laurent Dami <laurent.dami AT etat.ge.ch>'
 abstract: Writing documents for MsWord in HTML format
@@ -18,7 +18,7 @@ requires:
 provides:
   MsOffice::Word::HTML::Writer:
     file: lib/MsOffice/Word/HTML/Writer.pm
-    version: 0.03
+    version: 0.04
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
