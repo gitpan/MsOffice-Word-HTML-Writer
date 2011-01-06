@@ -9,7 +9,7 @@ use Carp;
 use Params::Validate qw/validate SCALAR HASHREF/;
 
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 
 sub new {
@@ -182,7 +182,7 @@ sub content {
     if ($mime_type =~ /^text|xml$/) {
       $encoding = 'quoted-printable';
       $content  =~ s/\r\n/\n/g;
-      $encoded  = encode_qp($content);
+      $encoded  = encode_qp($content, ''); # '': no "soft line breaks"
     }
     else {
       $encoding = 'base64';

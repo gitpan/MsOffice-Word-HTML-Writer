@@ -1,5 +1,8 @@
 Revision history for MsOffice-Word-HTML-Writer
 
+0.07 06.01.2011
+  - no "soft line breaks" in MIME encode_qp() -- see RT 63716
+
 0.06 28.07.2010
   - new arg for new(): WordDocument properties
 
