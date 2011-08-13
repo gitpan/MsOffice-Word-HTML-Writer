@@ -9,3 +9,4 @@ t/01_word_document.t
 t/pod-coverage.t
 t/pod.t
 Makefile.PL
+META.json
