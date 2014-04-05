@@ -4,7 +4,7 @@
       "Laurent Dami <laurent.dami AT etat.ge.ch>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4004, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4204",
    "license" : [
       "perl_5"
    ],
@@ -16,7 +16,7 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.40"
+            "Module::Build" : "0.42"
          }
       },
       "runtime" : {
@@ -34,7 +34,7 @@
    "provides" : {
       "MsOffice::Word::HTML::Writer" : {
          "file" : "lib/MsOffice/Word/HTML/Writer.pm",
-         "version" : "1.02"
+         "version" : "1.03"
       }
    },
    "release_status" : "stable",
@@ -43,5 +43,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "1.02"
+   "version" : "1.03"
 }
